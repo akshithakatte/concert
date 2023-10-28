@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///C:/Users/user/OneDrive/Desktop/web%20development/c5.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert Page</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        
+       
+        header {
+            
+            color: rgb(249, 245, 239);
+            text-align: center;
+            padding: 210px;
+            background-image: url(c1.jpg);
+            background-size: cover;
+        }
+        h1:first-child{
+            color:rgb(246, 234, 22);
+           
+            
+            
+        }
+        .marquee{
+            color:black;
+            background-color: rgb(241, 230, 26);
+            padding:12px;
+
+        }
+        main {
+            margin: 20px;
+        }
+        
+        
+        section {
+            
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: black;
+        }
+        #tickets{
+            color:white;
+            text-align: center;
+            background-image: url("c3.jpg");
+            background-size: cover;
+            padding: 125px;
+        }
+        #moments{
+            background-color: black;
+            color:azure;
+            box-sizing: border-box;
+        }
+
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+        
+        
+        a {
+            display: inline-block;
+            background-color: rgb(241, 230, 26);
+            color:black;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        a:hover {
+            background-color: #c6b4b4;
+        }
+      .change-content:after{
+content:"";
+animation:changetext 5s infinite linear;
+
+      }
+        @keyframes changetext{
+            0%{content:"Taylor Swift";}
+            20%{content:"Bruno Mars";}
+            40%{content:"Rihanna";}
+            60%{content:"Nicki Minaj";}
+            80%{content:"Drake";}
+            100%{content:"The Weeknd";}
+            
+        }
+       
+      .artists{
+        text-align: center;
+        color:beige;
+       font-size: x-large;
+        
+      }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: rgb(241, 230, 26);
+            padding: 10px 0;
+        }
+</style>        
+</head>
+<body>
+    <header>
+        <h1>CELEBRATING MUSIC,ART,AND CULTURE</h1>
+        <p>Experience the thrill of live music,celebrate diverse cultures, and immerse yourself in captivating art. Get ready to embark on extraordinary journey of entertainment.</p>
+      
+    </header>
+    <div class="marquee">
+        <marquee>CREATING UNFORGETTABLE MEMORIES</marquee>
+    </div>
+
+    <main>
+        <section class="artists">
+            <section class="change-content">
+              
+                <h1>FEATURED ARTISTS</h1>
+            </section> 
+             </section>
+        <section id="moments">
+            <h1>MOMENTS OF GLORY</h1>
+            <div class="row">
+                <div class="column">
+                  <img src="./Concert Page_files/c8.jpg" alt="Snow" style="width: 100%">
+                </div>
+                <div class="column">
+                  <img src="./Concert Page_files/c6.jpg" alt="Forest" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="./Concert Page_files/c7.jpg" alt="Mountains" style="width:100%">
+                </div>
+              </div>
+
+        </section>
+ <section id="tickets">
+
+            <h1>GET YOUR TICKETS TODAY</h1>
+            <p>Experience the thrill,excitement,and magic ofupcoming events.Don't miss your chance to be a part of action-get your tickets today.</p>
+            <a href="file:///C:/Users/user/OneDrive/Desktop/web%20development/ticket-link.html">Buy Tickets</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Akshitha Katte </p>
+    </footer>
+
+
+</body></html>
